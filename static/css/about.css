@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: 'Sofia Sans', sans-serif;
+    background: rgb(126,118,255);
+background: linear-gradient(90deg, rgba(126,118,255,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+}
+header {
+    height: 60px;
+    background-color: #0092a0;
+    display: flex; 
+}
+ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: start; 
+}
+  
+li a {
+    color: white; 
+    padding: 22px;
+    font-size: 20px; 
+    text-decoration: none; 
+}
+.cent{
+    text-align:center;
+    color:white;
+}  
