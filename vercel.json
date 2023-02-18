@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+      {
+          "src": "*.py",
+          "use": "@yarixx2021/yarixx-site"
+      }
+  ],
+  "routes": [
+      {
+          "src": "(.*)",
+          "dest": "main.py"
+      }
+  ]
+}
